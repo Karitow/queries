@@ -1,5 +1,11 @@
  /* layout de vista mobile */
+ body{
+  margin:0px;
+ }
+ 
  div {
+    margin:0px;
+    padding:0px;
     display: grid;
     min-height: 100vh;     
     border: none;
@@ -17,6 +23,8 @@
    font-size:18px;
    grid-area: header;
    color:palevioletred;
+   margin:0px;
+
  }
  
  .color {

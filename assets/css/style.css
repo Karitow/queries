@@ -2,7 +2,7 @@
  body{
   margin:0px;
  }
- 
+
  div {
     margin:0px;
     padding:0px;
@@ -17,6 +17,11 @@
     "pie_pagina";
  }
 
+ p{
+  text-align:left;
+  margin-left:40px;
+ }
+
  header{
    background-color: rgba(220, 220, 220, 0.664);
    padding:7px;
@@ -24,6 +29,7 @@
    grid-area: header;
    color:palevioletred;
    margin:0px;
+   text-align:center;
 
  }
  
@@ -83,7 +89,10 @@
    text-align:center;
    justify-content: center;
    display:center;
+ }
 
+ select{
+  text-align:center;
  }
 
  li{
@@ -192,6 +201,11 @@ article{
        border:0px;
     }
 
+    p{
+      text-align:left;
+      margin-left: 52px;
+    }
+
     header{
       background-color: rgba(220, 220, 220, 0.664);
       padding:7px;
@@ -199,6 +213,7 @@ article{
       grid-area: header;
       color:palevioletred;
       width:1100px;
+      text-align:center;
     }
 
     .color{
@@ -224,15 +239,15 @@ article{
    }
 
 
-   .numero{
+   li.numero{
       text-align:center;
-      justify-content:center;
+      justify-content:space-around;
       align-items:center;
    }
 
    .number-button{
       display:inline;
-      justify-content:center;
+      justify-content:space-around;
       text-align:center;
       align-items:center;
    }
